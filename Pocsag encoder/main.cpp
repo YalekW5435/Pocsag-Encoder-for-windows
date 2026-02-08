@@ -92,13 +92,13 @@ void print_help() {
         << "  --type <alpha|numeric|tone>\n"
         << "  --message \"text\"      Message string to send\n"
         << "  --bps <512|1200|2400> Transmission speed (Default: 1200)\n"
-        << "  --slot                create a batch of separate messages with different addresses.  When using this, ensure the --slot parameter comes *first* before \n anything.  Once your message is completed, you can move on to the next --slot.  \n\n"
+        << "  --slot                create a batch of separate messages with different addresses.  When using this, ensure the --slot parameter comes *first* before \n anything.  Once your message is completed, you can move on to the next --slot.\n\n"
         << "  --output <file>       Path to 24-bit raw output\n";
-        << "  Recommended usage: \n";
-        << "  PocsagEncoder.exe --address --function --bps --type --message ""  --output \n"
-        << "  PocsagEncoder.exe --group[, or - to repeat addresses sequentially] --function --bps --type --message "" --output ""page1.raw"" \n"
-        << "  PocsagEncoder.exe --slot --address --function --bps --type --message ""  --slot --address --function --bps --type --message ""  --output ""page1.raw"" \n\n"	
-        << "  I would highly recommend using the ""required"" use to get a feel of how this functionality works. \n"
+        << "  Recommended usage:\n";
+        << "  PocsagEncoder.exe --address --function --bps --type --message ""  --output\n"
+        << "  PocsagEncoder.exe --group[, or - to repeat addresses sequentially] --function --bps --type --message "" --output ""page1.raw""\n"
+        << "  PocsagEncoder.exe --slot --address --function --bps --type --message ""  --slot --address --function --bps --type --message ""  --output ""page1.raw""\n\n"	
+        << "  I would highly recommend using the ""required"" use to get a feel of how this functionality works.\n"
     }
 
 int main(int argc, char* argv[]) {

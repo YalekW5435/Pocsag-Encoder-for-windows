@@ -21,6 +21,7 @@ The program contains several parameters, all of which are used to encode your me
        --slot             create a batch of separate messages with different addresses.  
                           When using this, ensure the --slot parameter comes *first* before anything.  
                           Once your first slot is completed, you can move on to the next --slot. 
+       --output <file>       Path to 24-bit raw output.
      
      --output <file>       string, Path to 24-bit raw output.
          Required use:
